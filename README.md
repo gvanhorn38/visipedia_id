@@ -57,4 +57,10 @@ annotation{
   "num_keypoints" : int,
   "annotator_id" : int                //?
 }
+
+# Group multiple images together? 
+observation{
+  "id" : str,
+  "image_ids": [image_id]
+}
 ```
