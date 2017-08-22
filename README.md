@@ -41,8 +41,14 @@ category{
   "keypoints_style" : [str],
   "skeleton" : [edge],
   
-  "gbif_key" : int,
+  "species" : str,
+  "genus" : str,
+  "family" : str,
+  "order" : str,
+  "class" : str,
+  "phylum" : str,
   "kingdom" : str,
+  "gbif_key" : int,
 }
 
 annotation{
