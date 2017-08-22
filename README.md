@@ -63,4 +63,10 @@ observation{
   "id" : str,
   "image_ids": [image_id]
 }
+
+license{
+  "id" : int,
+  "name" : str,
+  "url" : str
+}
 ```
